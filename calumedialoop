@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<locale.h> 
+
+
+float calcumedia(float nota1, float nota2)
+{
+	float media = (nota1+nota2)/2;
+	return media;
+}
+
+void situacao(float media)
+{
+	if(media >= 5)
+	{
+		printf("sua média é igual a %.2f e você esta aprovado. \n",media);
+	}
+	
+	else if ( 5 > media)
+	{
+		printf("sua média é igual a %.2f e você esta reprovado. \n",media);	
+	}
+	
+}
+
+
+int main()
+{
+	setlocale(LC_ALL, "Portuguese");
+	
+	int i= 0 ;
+	int matricula;
+	float media, nota1, nota2;
+	
+	while(i<3)
+	{
+		printf("Digite a sua matricula:");
+		scanf("%d",&matricula);
+	
+		printf("Digite o valor da sua primeira nota:");
+		scanf("%f",&nota1);
+	
+		printf("Digite o valor da sua segunda nota:");
+		scanf("%f",&nota2);
+	
+		media = calcumedia(nota1,nota2);
+		printf("Aluno numero %d, Sua matricula é %dGELT , ", i+1, matricula);
+	
+		situacao(media);
+		
+		i = i+1;
+	}
+	printf("As médias de todos os alunos foram calculadas.");
+	
+	return 0;
+}
