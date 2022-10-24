@@ -12,4 +12,5 @@ material de aula
         printf("Césio tem massa atômica  %f u, por ser radioativo  é caçado por muitos", massa);
         return 0;
     }
-    
+ saida:
+    Césio tem massa atômica  132,905457 u, por ser radioativo  é caçado por muitos
