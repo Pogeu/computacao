@@ -1,4 +1,4 @@
-## computação
+# computação
 material de aula que eu vou digitando as vezes.
 
     para utilizar caracteres e simbolos do português 
@@ -13,5 +13,5 @@ material de aula que eu vou digitando as vezes.
         return 0;
     }
     
- # saida:
+ ## saida:
     Césio tem massa atômica  132,905457 u, por ser radioativo é caçado por muitos
