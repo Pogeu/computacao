@@ -1,5 +1,5 @@
-# computação
-material de aula que eu vou digitando as vezes.
+# Computação
+material de aula que eu vou digitando as vezese vou guardando por aqui.
 
     para utilizar caracteres e simbolos do português 
     
