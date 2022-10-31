@@ -16,7 +16,7 @@ float somaSal(int qtd)
         scanf("%f", &salario);
         
         soma += salario;
-        }
+        
     }
    
     return soma;
