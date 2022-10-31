@@ -19,7 +19,7 @@ material de aula que eu vou digitando e as vezes vou guardando por aqui.
 ## while loop
 Estrutura:
     
-    variavel controladora;
+    criar e inicializar a variavel controladora;
     while(condição)
     {   
         bloco de comando;
@@ -37,14 +37,14 @@ Exemplo:
 ## for loop
 Estrutura:
     
-    criar e inicializar a variavel controladora;
-    for (inicializar variavel, condição, atualizar variavel)
+    criar a variavel controladora;
+    for (inicializar variaveis, condição, atualizar variavel)
     {   
         bloco de comando;
                            }
 Exemplo:
 
-    inti i;
+    int i;
     for(i = 0, i<5, i++)
     {
         printf("do shit");
