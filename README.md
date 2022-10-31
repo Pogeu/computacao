@@ -45,7 +45,7 @@ Estrutura:
 Exemplo:
 
     int i, max;
-    for(i = 0, max = 0; i<5: i++)
+    for(i = 0, max = 0; i<5; i++)
     {   
         printf("do shit");
                            }
