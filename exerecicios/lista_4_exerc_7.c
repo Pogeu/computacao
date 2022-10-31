@@ -6,7 +6,7 @@ int leValida()
     int i;
     do
     {
-      printf("\nDigite a quantidadr: ");
+      printf("\nDigite a quantidade: ");
       scanf("%d", &i);
     }while (i <= 0);  
        
@@ -40,7 +40,7 @@ int main()
     float soma;
     
     qtd = leValida();
-    soma = funcionarios(qtd)
+    soma = funcionarios(qtd);
   
     printf("\nA soma dos salarios é de R$ %.2f: ", soma);
   
