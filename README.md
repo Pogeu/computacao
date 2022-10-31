@@ -1,5 +1,7 @@
 # Computação
 material de aula que eu vou digitando e as vezes vou guardando por aqui.
+Se quiser testar os códigos e estiver sem pc usa esse site aqui:
+https://www.programiz.com/c-programming/online-compiler/
 
     Para utilizar caracteres e simbolos do português 
     
