@@ -53,3 +53,7 @@ Exemplo:
         printf("do shit");
                            }
                            
+## incrementar variavel
+    int = int + 1; 
+    int =+ 1;   #Pode ser usado para incrementar qualquer valor
+    int i ++    #Incrementa apenas em 1 unidade
