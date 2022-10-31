@@ -38,15 +38,15 @@ Exemplo:
 Estrutura:
     
     criar a variavel controladora;
-    for (inicializar variaveis, condição, atualizar variavel)
+    for (inicializar variaveis; condição; atualizar variavel)
     {   
         bloco de comando;
                            }
 Exemplo:
 
-    int i;
-    for(i = 0, i<5, i++)
-    {
+    int i, max;
+    for(i = 0, max = 0; i<5: i++)
+    {   
         printf("do shit");
                            }
                            
