@@ -37,7 +37,7 @@ int main()
     
     while (qtddown != 0)
     {
-      soma = dowloadUm(qtddown);
+      soma = downloadUm(qtddown);
       valor = soma * preco;
       printf(" \nO valor pago pelo tamamnho dos downloads é de R$ %f .", valor);
       
