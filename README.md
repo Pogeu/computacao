@@ -3,7 +3,7 @@ material de aula que eu vou digitando e as vezes vou guardando por aqui.
 Se quiser testar os códigos e estiver sem pc usa esse site aqui:
 https://www.programiz.com/c-programming/online-compiler/
 
-    Para utilizar caracteres e simbolos do português 
+## Para utilizar caracteres e simbolos do português 
     
     #include<locale.h> 
     
@@ -15,7 +15,8 @@ https://www.programiz.com/c-programming/online-compiler/
         return 0;
     }
     
- ## saida:
+saida:
+
     Césio tem massa atômica  132,905457 u, por ser radioativo é caçado por muitos
     
 ## while loop
