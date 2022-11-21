@@ -74,3 +74,17 @@ Estrutura:
         default:
             bloco de comando;
     }
+Exemplo:
+Vai executar todos os case posteriores ao case igual
+
+    switch( tipo) 
+    {
+        case 'O':
+            printf(\nLimite para compra de imovel);
+        
+        case 'P':
+            printf(\nLimite para compra de automovel);
+        
+        case 'B':
+            printf(\nLimite de cheque especial);
+    }
