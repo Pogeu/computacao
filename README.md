@@ -59,16 +59,18 @@ Exemplo:
     int i ++;   #Incrementa apenas em 1 unidade
     
 ## switch
-switch( variavel ou expressão)
-{
-    case valor1:
-        bloco de comando;
-        break;
+Estrutura:
+    
+    switch( variavel ou expressão) #só trabalha com inteiros ou char
+    {
+        case valor1:
+            bloco de comando;
+            break;
         
-    case valor2:
-        bloco de comando;
-        break;
+        case valor2:
+            bloco de comando;
+            break;
         
-    default:
-        bloco de comando;
-}
+        default:
+            bloco de comando;
+    }
