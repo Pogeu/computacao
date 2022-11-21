@@ -57,3 +57,18 @@ Exemplo:
     int = int + 1; 
     int =+ 1;   #Pode ser usado para incrementar qualquer valor
     int i ++;   #Incrementa apenas em 1 unidade
+    
+## switch
+switch( variavel ou expressão)
+{
+    case valor1:
+        bloco de comando;
+        break;
+        
+    case valor2:
+        bloco de comando;
+        break;
+        
+    default:
+        bloco de comando;
+}
