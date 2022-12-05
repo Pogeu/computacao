@@ -104,3 +104,21 @@ Saída:
     i
     Dick
     
+## ponteiro
+Estrutura: 
+
+    int myAge = 43; 
+    int* ptr = &myAge;
+    printf("%d", myAge); 
+    printf("%p", &myAge);
+    printf("%p", ptr);
+    printf("%d\n", *ptr);
+
+Saída:
+
+    43
+    0x7ffe5367e044
+    0x7ffe5367e044
+    43
+    
+    
