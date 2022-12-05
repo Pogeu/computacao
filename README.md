@@ -55,13 +55,13 @@ Exemplo:
                            
 ## incrementar variavel
     int = int + 1; 
-    int =+ 1;   #Pode ser usado para incrementar qualquer valor
-    int i ++;   #Incrementa apenas em 1 unidade
+    int =+ 1;   //Pode ser usado para incrementar qualquer valor
+    int i ++;   //Incrementa apenas em 1 unidade
     
 ## switch
 Estrutura:
     
-    switch( variavel ou expressão) #só trabalha com inteiros ou char
+    switch( variavel ou expressão) //só trabalha com inteiros ou char
     {
         case valor1:
             bloco de comando;
@@ -94,7 +94,10 @@ Estrutura:
 
     char string[] = "Shit";
     printf("%s",string);
+    printf("%c", String[1]);
+
 Saída:
 
     Shit
+    h
     
