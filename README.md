@@ -88,3 +88,13 @@ Vai executar todos os case posteriores ao case igual
         case 'B':
             printf(\nLimite de cheque especial);
     }
+
+##string
+Estrutura: 
+
+    char string[] = "Shit";
+    printf("%s",string);
+Saída:
+
+    Shit
+    
