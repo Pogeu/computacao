@@ -92,12 +92,15 @@ Vai executar todos os case posteriores ao case igual
 ## string
 Estrutura: 
 
-    char string[] = "Shit";
+    char string[] = "Lick";
     printf("%s",string);
-    printf("%c", String[1]);
+    printf("%c", string[1]);
+    string[0] = 'D';
+    printf("%s", string);
 
 Saída:
 
-    Shit
-    h
+    Lick
+    i
+    Dick
     
