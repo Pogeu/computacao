@@ -90,7 +90,7 @@ Vai executar todos os case posteriores ao case igual
     }
 
 ## string
-Estrutura: 
+Exemplo: 
 
     char string[] = "Lick";
     printf("%s",string);
@@ -105,7 +105,7 @@ Saída:
     Dick
     
 ## ponteiro
-Estrutura: 
+Exemplo: 
 
     int myAge = 43; 
     int* ptr = &myAge;
