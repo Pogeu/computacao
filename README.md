@@ -90,6 +90,10 @@ Vai executar todos os case posteriores ao case igual
     }
 
 ## string
+Estrutura: 
+
+    char string[] = "Text";
+  
 Exemplo: 
 
     char string[] = "Lick";
@@ -105,6 +109,11 @@ Saída:
     Dick
     
 ## ponteiro
+Estrutura: 
+
+    int var = value;
+    int * pointer = &var;
+    
 Exemplo: 
 
     int myAge = 43; 
