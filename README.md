@@ -131,7 +131,7 @@ Saída:
     43
     
 ## structures
-Estrutura: 
+Estrutura: topico interessante (https://www.javatpoint.com/array-of-structures-in-c)
 
     struct MyStructure   
     { 
@@ -179,4 +179,4 @@ Saída:
     13 B Some text
     30 C Something else
     
-    
+   
