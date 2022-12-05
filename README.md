@@ -22,7 +22,7 @@ saida:
 ## while loop
 Estrutura:
     
-    criar e inicializar a variavel controladora;
+    //criar e inicializar a variavel controladora;
     while(condição)
     {   
         bloco de comando;
@@ -40,7 +40,7 @@ Exemplo:
 ## for loop
 Estrutura:
     
-    criar a variavel controladora;
+    //criar a variavel controladora;
     for (inicializar variaveis; condição; atualizar variavel)
     {   
         bloco de comando;
@@ -89,7 +89,7 @@ Vai executar todos os case posteriores ao case igual
             printf(\nLimite de cheque especial);
     }
 
-##string
+## string
 Estrutura: 
 
     char string[] = "Shit";
