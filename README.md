@@ -163,3 +163,20 @@ Saída:
     13
     B
     
+Exemplo 2: a função strcpy permite escrever strings dentro de uma struc
+
+    struct myStructure s1 = {13, 'B', "Some text"};
+    struct myStructure s2;
+    s2 = s1;
+    s2.myNum = 30;
+    s2.myLetter = 'C';
+    strcpy(s2.myString, "Something else");
+    printf("%d %c %s\n", s1.myNum, s1.myLetter, s1.myString);
+    printf("%d %c %s\n", s2.myNum, s2.myLetter, s2.myString);
+    
+Saída:
+
+    13 B Some text
+    30 C Something else
+    
+    
