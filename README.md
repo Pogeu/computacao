@@ -186,6 +186,7 @@ Estrutura:
     
     
 ## File Input and Output 
+tópicos interessantes: https://www.w3schools.in/c-programming/file-handling https://www.geeksforgeeks.org/exit0-vs-exit1-in-c-c-with-examples/ https://stackoverflow.com/questions/17383015/difference-between-return-0-and-exit-0
 Estrutura:
 
           FILE *in_file  = fopen("name_of_file", "r"); // read only 
@@ -209,4 +210,56 @@ Estrutura:
  
           fscanf(stdin, "%d %d", &int_var_1, &int_var_2);  
           scanf(        "%d %d", &int_var_1, &int_var_2); 
+          
+Exemplo 1:
+
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main()
+    {
+    int num;
+    FILE *fptr;
+
+    // use appropriate location if you are using MacOS or Linux
+    fptr = fopen("C:\\program.txt","w");
+
+    if(fptr == NULL)
+    {
+      printf("Error!");   
+      exit(1);             
+    }
+
+    printf("Enter num: ");
+    scanf("%d",&num);
+
+    fprintf(fptr,"%d",num);
+    fclose(fptr);
+
+    return 0;
+    }
+Exemplo 2:
+
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main()
+    {
+    int num;
+    FILE *fptr;
+
+    if ((fptr = fopen("C:\\program.txt","r")) == NULL){
+       printf("Error! opening file");
+
+       // Program exits if the file pointer returns NULL.
+       exit(1);
+    }
+
+    fscanf(fptr,"%d", &num);
+
+    printf("Value of n=%d", num);
+    fclose(fptr); 
+  
+    return 0;
+    }
            
