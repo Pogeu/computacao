@@ -130,8 +130,9 @@ Saída:
     0x7ffe5367e044
     43
     
-## structures
+## Structures
 topico interessante (https://www.javatpoint.com/array-of-structures-in-c)
+
 Estrutura: 
     
     struct MyStructure   
@@ -187,6 +188,7 @@ Estrutura:
     
 ## File Input and Output 
 tópicos interessantes: https://www.w3schools.in/c-programming/file-handling https://www.geeksforgeeks.org/exit0-vs-exit1-in-c-c-with-examples/ https://stackoverflow.com/questions/17383015/difference-between-return-0-and-exit-0
+
 Estrutura:
 
           FILE *in_file  = fopen("name_of_file", "r"); // read only 
