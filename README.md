@@ -108,7 +108,7 @@ Saída:
     i
     Dick
     
-## ponteiro
+## Ponteiro
 Estrutura: 
 
     int var = value;
@@ -180,3 +180,9 @@ Saída:
     30 C Something else
     
    
+## Array
+    Estrutura:
+    
+    
+## File Input and Output 
+    Estrutura:
